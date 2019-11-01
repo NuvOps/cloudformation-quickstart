@@ -1,0 +1,17 @@
+name: Check CloudFormation Templates
+
+on: [push]
+
+jobs:
+  cfn-linter:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+
+    - name: puppet-lint
+      uses: scottbrenner/cfn-lint-action@master
+      with:
+        args: **/*.yml
