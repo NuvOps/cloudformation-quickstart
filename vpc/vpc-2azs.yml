@@ -36,7 +36,7 @@ Conditions:
   PrivateInternetAccess: !Equals [ !Ref NATGateways, true ]
 Resources:
   VPC:
-    Type: 'AWS::EC2:VPC'
+    Type: 'AWS::EC2::VPC'
     Properties:
       CidrBlock: !Sub '10.${ClassB}.0.0/16'
       EnableDnsSupport: true
@@ -341,7 +341,7 @@ Resources:
 
 Outputs:
   Template:
-    Description: 'nuvops.com template id.'
+    Description: 'cloudonaut.io template id.'
     Value: 'vpc/vpc-2azs'
   TagsName:
     Description: Tags name.
