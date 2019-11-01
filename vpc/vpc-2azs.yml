@@ -36,7 +36,7 @@ Conditions:
   PrivateInternetAccess: !Equals [ !Ref NATGateways, true ]
 Resources:
   VPC:
-    Type: 'AWS::EC2::VPC'
+    Type: 'AWS::EC2:VPC'
     Properties:
       CidrBlock: !Sub '10.${ClassB}.0.0/16'
       EnableDnsSupport: true
