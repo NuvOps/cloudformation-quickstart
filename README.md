@@ -1,7 +1,8 @@
 # CloudFormation Quickstart Templates
 ---
 
-![](https://github.com/NuvOps/cloudformation-quickstart/workflows/main/badge.svg)
+![](https://github.com/NuvOps/cloudformation-quickstart/workflows/main.yml/badge.svg)
 
+---
 
-CloudfFormation templates to start building your project in AWS ASAP
+Open Source CloudfFormation templates to start building your project in AWS ASAP
