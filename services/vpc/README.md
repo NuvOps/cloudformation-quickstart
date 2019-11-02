@@ -10,8 +10,9 @@ All AWS services are launched on top of VPC.
 |   vpc-3azs	| 3|   3	|   3	|   1	|  3 	|   1	|   3	|   	
 
 
-
-*Note*, if **NATGateways** is set to **False**, NAT Gateways and Elastic IPs are not launched.
+*Notes*
+* if **NATGateways** parameter is set to **False**, NAT Gateways and Elastic IPs are not launched.
+* The default **Security Group** allows all incoming traffic to ports 22, 80 and 443
 
 ## Cost
 
